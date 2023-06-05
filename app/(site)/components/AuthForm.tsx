@@ -146,6 +146,7 @@ const AuthForm = () => {
                 </Button>
             </div>
             </form>
+            {/* 
             <div className="mt-6">
                 <div className="relative">
                     <div className="absolute inset-0 flex items-center">
@@ -162,7 +163,8 @@ const AuthForm = () => {
                     <AuthSocialButton icon={BsGoogle} onClick={() => socialAction('google')} />
                 </div>
             </div>
-
+            */}
+            
             <div className="flex gap-2 justify-center text-sm mt-6 px-2 text-gray-500">
                 <div>
                     {variant == 'LOGIN' ? 'New to Messenger?' : 'Already have an account'}
